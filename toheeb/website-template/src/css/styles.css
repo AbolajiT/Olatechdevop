@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"> Arial, sans-serif;
+<head>rgin: 0;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Services - Olatech Dev'Op</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> {
+    <header>nd: #0078d7;
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Olatech Dev'Op Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="order-services.html">Order Services</a></li>
+                    <li><a href="order-services.html" class="active">Order Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>{
+    </header>: 50px;
+    <main>
+        <section class="order-services">
+            <h1>Order Our Services</h1>
+            <p>Fill out the form below to request a service. Our team will get back to you shortly.</p>
+            <form action="#" method="POST" class="order-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>}
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>    color: white;
+
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Select a Service --</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="app-development">App Development</option>
+                    <option value="cloud-solutions">Cloud Solutions</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                </select>}
+
+                <label for="message">Additional Details:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Provide any additional details here"></textarea>    font-size: 2.5rem;
+
+                <button type="submit" class="btn">Submit Request</button>
+            </form>
+        </section>
+    </main>e: 1.2rem;
+    <footer>
+        <p>&copy; 2025 Olatech Dev'Op. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>btn {
+</body>kground: #0078d7;
+
+</html>    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.order-services {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-services h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.order-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-form button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background: #005bb5;
+}
